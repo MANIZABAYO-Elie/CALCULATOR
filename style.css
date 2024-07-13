@@ -1,3 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+button:hover{
+   
+    transform: scale(1.1);
+}
+button:active{
+    background-color: aqua;
+}
+#display{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: rgba(250, 235, 215, 0.577);
+}
+
+
+#calculator{
+    background-color: rgba(255, 255, 255, 0.474);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
 #keys{
     display: grid;
     grid-template-columns: repeat(4,100px);
