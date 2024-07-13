@@ -1,4 +1,15 @@
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    padding: 25px;
+}
 button{
     width:100px;
     height:100px;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
 }
