@@ -13,12 +13,14 @@ button:active{
 .operator-btn{
     background-color:grey ;
 }
+
 #display{
     width: 100%;
     height: 80px;
     margin-top: 20px;
     background-color: rgba(250, 235, 215, 0.577);
-    color: white;
+    color: black;
+    font-size: 40px;
 }
 
 
